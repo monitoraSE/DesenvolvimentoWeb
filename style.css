@@ -198,3 +198,25 @@ footer li {
     font-size: 18px;
     font-family: 'Julius Sans One';
 }
+
+.meuBotao {
+    background-color: #322653; /* Cor de fundo padrão */
+    color: white; /* Cor do texto padrão */
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Adicionando transição suave para a mudança de cor */
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Estilizando o ícone dentro do botão */
+  .meuBotao i {
+    margin-right: 5px; /* Espaçamento entre o ícone e o texto */
+  }
+  
+  /* Quando o mouse estiver sobre o botão, altere a cor de fundo e a cor do texto */
+  .meuBotao:hover {
+    background-color: rgb(228, 228, 38); /* Nova cor de fundo quando hover */
+    color: #ffffff; /* Nova cor do texto quando hover */
+  }
