@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Roboto:wght@100&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body {
+    background-color: #322653;
+    
+}
+
+
+.cabecalho {
+    
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    flex-shrink: 0;
+
+    width: 100%;
+    height: 60px;
+
+    background: #322653;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+ 
+}
+
+.cabecalho__link {
+
+    width: 64px;
+    flex-shrink: 0;
+
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Roboto;
+    
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+
+
+header {
+    display: flex;
+    width: 387px;
+    height: 38px;
+    align-items: flex-start;
+    gap: 30px;
+    flex-shrink: 0;
+
+    width: 100%;
+    height: 60px;
+
+    background: #322653;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.retangulo__branco{
+
+    background-image: url('Rectangle\ 67.png');
+    background-size: cover;
+    width: 483px;
+    height: 562px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFF;
+
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding: 3%;
+    
+    
+}
+
+
+
+
+.card__login {                 /*classe da palavra login */
+    
+    color: #000;
+    text-align: center;
+    font-family: Archivo Narrow;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    
+    height: 30%;
+    flex-shrink: 0;
+}
+
+
+.card__email {
+    display: flex;
+    width: 79.549px;
+    height: 23.299px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    color: #000;
+    font-family: Archivo Narrow;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.input__email {
+    display: flex;
+    width: 100%;
+    height: 44.805px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    color: rgba(0, 0, 0, 0.26);
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card__senha {
+    display: flex;
+    width: 80.694px;
+    height: 21.722px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    color: #000;
+    font-family: Archivo Narrow;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.input__senha {
+    display: flex;
+    width: 100%;
+    height: 41.772px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    color: rgba(0, 0, 0, 0.26);
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.input__entrar {
+
+    width: 146px;
+    height: 35px;
+    flex-shrink: 0;
+
+    border-radius: 10px;
+    background: #FAEA48;
+}
+
+
+
+main {
+  
+    margin: 8%;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer {
+    color: white;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    font-family: Archivo Narrow;
+    
+}
+
+.bloco__texto {
+    margin-right: 10%;
+    
+    display: inline-block;
+    margin: 0 10 px;
+}
+
+.bloco-texto h3 {
+    font-size: 24px;
+    margin-bottom: 10px; /* Espaço entre o título e o texto, ajuste conforme necessário */
+}
+
+.rodape__link {
+
+    width: 12px;
+    flex-shrink: 0;
+
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Archivo Narrow;
+    
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+
+}
+
+
+
