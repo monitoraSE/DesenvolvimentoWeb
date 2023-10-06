@@ -15,36 +15,36 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-md bg-body-tertiary fonteMenu shadow p-3 mb-5 bg-body-tertiary rounded">
-        <div class="container-fluid fonteMenu" >
-          <a class="navbar-brand monitoraseMenu" href="index.html">MonitoraSE</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse " id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto">
-              <li class="nav-item">
-                <a class="nav-link botoesMenu" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link botoesMenu" href="index.html#sobre">Sobre</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link botoesMenu active" href="#">Contato</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link botoesMenu" href="#">Download</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="search..." aria-label="Search">
-              <button class="btn btn-bd-lupa" type="submit"><img src="imagens/lupa.png" width="15px" height="15px"  alt="lupaPesquisa"> </button>
-            </form> 
-            <a class="btn btn-bd-login" href="#" role="button">Login</a>
-           </div>
-        </div>
-    </nav>
+  <nav class="navbar navbar-expand-md bg-body-tertiary fonteMenu shadow p-3 mb-5 bg-body-tertiary rounded">
+    <div class="container-fluid fonteMenu" >
+      <a class="navbar-brand monitoraseMenu" href="index.html">MonitoraSE</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link botoesMenu" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link botoesMenu" href="index.html/#sobre">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link botoesMenu active" href="#">Contato</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link botoesMenu" href="#">Download</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="search..." aria-label="Search">
+          <button class="btn btn-bd-lupa" type="submit"><img src="imagens/lupa.png" width="15px" height="15px"  alt="lupaPesquisa"> </button>
+        </form> 
+        <a class="btn btn-bd-login fonteBotao" href="login.html" role="button">Login</a>
+        <br>
+      </div>
+    </nav> 
 
      <div class="imagemContato container card card-Imagem shadow p-3 mb-5 rounded">
         <img src="imagens/logo.png" class="img-fluid" alt="LogoMonitoraSE">
@@ -52,50 +52,49 @@
      <br>
 
         <section id="contato">
-            <form action="contatoEnviar.php" method="post">
-                <div class="container-fluid card shadow p-3 mb-5 bg-body rounded h-50 w-50">
+            <form action="contatoEnviar.php" method= "post">
+                <div class="container-fluid card shadow p-3 mb-5 bg-body rounded h-50 w-50 justify-content-center">
                     <h2 class="text-center"><b>Entre em contato conosco</b></h2><br>
                     <br>
-                    <label for="nomeFormHome" class="form-label"><b>Digite seu nome:</b></label>
+                    <label for="nomeFormHome" class="form-label fontePlanosAssinatura"><b>Digite seu nome:</b></label>
                     <input type="text" class="form-control" id="nomeFormHome" name="Nome">
                     <br>
-                    <label for="emailFormHome" class="form-label"><b>E-mail:</b></label>     
+                    <label for="emailFormHome" class="form-label fontePlanosAssinatura"><b>E-mail:</b></label>     
                     <input type="email" class="form-control" id="emailFormHome" placeholder="name@example.com" name="Email">
                     <br>
-                    <label for="assuntoFormHome" class="form-label"><b>Assunto:</b></label>
+                    <label for="assuntoFormHome" class="form-label fontePlanosAssinatura"><b>Assunto:</b></label>
                     <input type="text" class="form-control" id="assuntoFormHome" name="Assunto">
                     <br>
-                    <label for="textAreaHome" class="form-label"><b>Deixe seu comentário:</b></label>
+                    <label for="textAreaHome" class="form-label fontePlanosAssinatura"><b>Deixe seu comentário:</b></label>
                     <textarea class="form-control" id="textAreaHome" rows="5" name="Mensagem"></textarea>
                     <br>
-                    <button class="btn btn-bd-login" type="submit" value="Enviar" data-bs-toggle="popover" title="Contato Realizado" data-bs-content="Agradecemos o contato!">Enviar</button>
+                    <button class="btn btn-bd-login fonteBotao" type="submit" name="send">Enviar</button>
                 </div>
             </form>
         </section>
         <br>
         <footer class="text-center fonteFooter">
-            <div class="container-fluid row mx-auto gap-5 g-1 justify-content-center">
-            <div class="col-md-3 col-lg-2 fonteFooter">
-                <b>Instucional</b><br><br>
-
-                <a class="fonteFooter" href="#sobre">Sobre nós</a><br>
-                Políticas de Pagamento<br>
-                <a class="fonteFooter" href = "contato.html">Contato</a>
+          <div class="container-fluid row mx-auto gap-5 g-1 justify-content-center">
+            <div class="col-md-3 col-lg-2">
+              <h4 class="fonteFooterDestaque">Institucional</h4>
+              
+              <a class="fonteFooter" href="#sobre">Sobre nós</a><br>
+              Políticas de Pagamento<br>
+              <a class="fonteFooter" href = "contato.html">Contato</a>
             </div>
-            <div class="col-md-3 col-lg-2 fonteFooter">
-                <b>Atendimento</b><br><br>
-
-                (32) 9 9800 0000<br>
-                comercial@monitorase.com.br<br>
-                <img src="imagens/redesociais.png" width="150" height="40" alt="Redes Sociais">
+            <div class="col-md-3 col-lg-2">
+              <h4 class="fonteFooterDestaque">Atendimento</h4>
+    
+              (32) 9 9800 0000<br>
+              comercial@monitorase.com.br<br>
+              <img src="imagens/redesociais.png" width="150" height="40" alt="Redes Sociais">
             </div>
-            <div class="col-md-3 col-lg-2 fonteFooter">      
-                <b>Formas de Pagamento</b>
-
-                    <img src="imagens/pagamentos.png" width="197" height="96" alt="Formas de Pagamento">
+            <div class="col-md-3 col-lg-2">      
+              <h4 class="fonteFooterDestaque">Formas de Pagamento</h4>
+                  <img src="imagens/pagamentos.png" width="197" height="96" alt="Formas de Pagamento">
             </div>
-            </div> 
-            <p class="py-3">2023 <i class="bi bi-c-circle"></i> Desenvolvido por Guilherme, Marcela e Tamires | Projeto fictício para disciplina de Desenvolvimento Web.</p>
+          </div> 
+          <p class="py-3">2023 <i class="bi bi-c-circle"></i> Desenvolvido por Guilherme, Marcela e Tamires | Projeto fictício para disciplina de Desenvolvimento Web.</p>
         </footer>
 
         <script>
@@ -103,7 +102,7 @@
             var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
               return new bootstrap.Popover(popoverTriggerEl)
             })
-          </script>
+        </script>
     </body>
 
 </html>
