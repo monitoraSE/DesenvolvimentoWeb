@@ -1,0 +1,222 @@
+*{margin: 0; padding: 0;}
+
+body{
+    font-family: arial, helvetica, sans-serif;
+    font-size: 14px;
+    background-color: #322653;
+    overflow-y:auto;
+    overflow-x:hidden;
+
+}
+
+:root{
+    --cor--primaria: #6447aa; 
+    --cor--segundaria: #FAEA48; 
+    --cor--terciaria: white; 
+    --cor--fonte--login: #322653;
+}
+
+header{
+    display: flex; /* Altura do container */
+    text-align: center;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none; /* Remover marcadores de lista */
+    padding: 0;
+    margin: 0;
+    text-align: left; /* Alinhamento horizontal dos itens */
+    display: flex;
+}
+
+nav li {
+    display: inline; /* Exibir os itens na mesma linha */
+    margin: 0 25px; /* Espaçamento entre os itens */
+}
+
+header nav a{    
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*header img{
+    width: 1200px; 
+    height: 600px;
+
+}*/
+#container1{
+    width: 100%; /* Largura do container */
+    height: 100%; /* Altura do container */
+    background-color: #322653;
+    padding: 5px;
+    
+}
+
+#container2{
+    background-color: white;
+    padding: 5px;
+    border-radius: 20px;
+    margin: 10px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#section0 {
+
+    border-radius: 20px;  
+    padding: 20px;
+    margin: 10px;
+    height: 350px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+#section0 img{
+
+    width: 1200px;
+    height: 600px;          
+}
+#section1{
+
+    background-color: #bebacc;  
+    border-radius: 20px;  
+    padding: 20px;
+    margin: 10px;
+    height: 250px;
+    display: flex;
+    flex-direction: column; 
+    text-align: center;      
+}
+
+#section11{
+    display: flex;
+    flex-direction: row; /* Esta é a direção padrão, então não é necessário */
+    align-items: flex-start;
+    justify-content: center;
+
+
+}
+
+#section12{
+    flex-direction: column; 
+    text-align: center;
+}
+
+.imagemcont img{
+    width: 150px; 
+    height: 100px;
+    border-radius: 20px;
+    max-width: 100%;
+    max-height: 100%; 
+
+}
+
+#section2{
+    background-color: #bebacc;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    height: 250px;
+    display: flex;
+    flex-direction: column; 
+    text-align: center;  
+}
+#section21{
+    display: flex;
+    flex-direction: row; /* Esta é a direção padrão, então não é necessário */
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+#section3{
+    background-color: #bebacc;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    height: 250px;
+    display: flex;
+    flex-direction: column; 
+    text-align: center; 
+}
+
+#section31{
+    display: flex;
+    flex-direction: row; /* Esta é a direção padrão, então não é necessário */
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.box{ 
+    border-radius: 20px; 
+    /*margin: 10px; /* Adicione margens entre os containers filhos, se desejar */
+    background-color: lightgray; /* Cor de fundo para ilustração */
+    padding: 10px;
+    width: 150px; /* Largura do container */
+    height: 200px;
+    border-radius: 20px;
+    margin-left: 30; /* Aumente o valor da margem esquerda para aumentar a distância lateral */
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+main{
+    background-color: white;
+}
+
+footer{
+    width: 100%; 
+    height: 100%; 
+    color: white;
+}
+
+.listas{
+    display: flex;
+}
+
+footer ul{
+    list-style-type: none; /* Remove marcadores de lista */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Alinha os itens horizontalmente */     
+}
+
+footer li {
+    margin: 0 200px; /* Espaçamento horizontal entre os itens */
+    
+}
+
+.titulolista{
+
+    font-size: 18px;
+    font-family: 'Julius Sans One';
+}
+
+.meuBotao {
+    background-color: #322653; /* Cor de fundo padrão */
+    color: white; /* Cor do texto padrão */
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Adicionando transição suave para a mudança de cor */
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Estilizando o ícone dentro do botão */
+  .meuBotao i {
+    margin-right: 5px; /* Espaçamento entre o ícone e o texto */
+  }
+  
+  /* Quando o mouse estiver sobre o botão, altere a cor de fundo e a cor do texto */
+  .meuBotao:hover {
+    background-color: rgb(228, 228, 38); /* Nova cor de fundo quando hover */
+    color: #ffffff; /* Nova cor do texto quando hover */
+  }
