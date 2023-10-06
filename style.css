@@ -126,5 +126,10 @@ body{
 
 .active {
     background-color: transparent;
-    color: #322653;
-  }
+    color: #322653;  
+}
+
+.card-Imagem{
+    background-color: transparent;
+    border-color: #FAEA48;
+}
