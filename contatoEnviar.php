@@ -1,5 +1,5 @@
 <?php
-if (isset($_POST['send'])) {
+if (isset($_POST["send"])) {
 
  $nome = $_POST['Nome'];
  $email = $_POST['Email']; 
@@ -15,14 +15,14 @@ if (isset($_POST['send'])) {
  $email_conteudo = "Enviado por: $nome \n"; 
  $email_conteudo .= "$mensagem \n"; 
 
- $email_headers = implode ( "\n",array ( "From: $email_destinatario", "Reply-To: $email_reply", "Return-Path: $email_remetente","MIME-Version: 1.0","X-Priority: 3","Content-Type: text/html; charset=UTF-8" ) );
+ $email_headers = implode ( "\n",array ( "From: $email_destinatario", "Reply-To: $email_reply", "Return-Path: $email_remetente","MIME-Version: 3.0","X-Priority: 3","Content-Type: text/html; charset=UTF-8" ) );
 
  if (mail ($email_remetente, $email_assunto, nl2br($email_conteudo), $email_headers)){ 
-  echo "<script>alert('E-mail enviado com sucesso!');location.href = 'index.html';</script>";
+  echo "<script>alert('E-mail enviado com sucesso!');location.href = 'contato.html';</script>";
 
  } 
  else{ 
-  echo "<script>alert('Falha no envio!');location.href = 'index.html';</script>";
+  echo "<script>alert('Falha no envio!');location.href = 'contato.html';</script>";
   } 
 }
 ?>
