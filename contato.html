@@ -52,7 +52,8 @@
      <br>
 
         <section id="contato">
-            <form action="contatoEnviar.php" method= "post">
+          <!--action="contatoEnviar.php" method= "post" metodo para fazer o botao do form enviar-->
+            <form>
                 <div class="container-fluid card shadow p-3 mb-5 bg-body rounded h-50 w-50 justify-content-center">
                     <h2 class="text-center"><b>Entre em contato conosco</b></h2><br>
                     <br>
@@ -68,7 +69,7 @@
                     <label for="textAreaHome" class="form-label fontePlanosAssinatura"><b>Deixe seu comentário:</b></label>
                     <textarea class="form-control" id="textAreaHome" rows="5" name="Mensagem"></textarea>
                     <br>
-                    <button class="btn btn-bd-login fonteBotao" type="submit" name="send">Enviar</button>
+                    <button class="btn btn-bd-login fonteBotao" type="submit" data-bs-container="body" data-bs-toggle="popover" data-bs-content="Contato realizado!">Enviar</button>
                 </div>
             </form>
         </section>
