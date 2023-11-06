@@ -13,7 +13,6 @@
 
 body {
     background-color: var(--cor-primaria);
-    font-family: var(--fonte-primaria);
 }
 
 .card-branco {
@@ -34,6 +33,9 @@ body {
 
 .titulo-principal {
     margin: 3% 0 3% 0;
+
+    font-weight: bold;
+    font-size: 4rem;
 }
 
 
@@ -44,6 +46,9 @@ body {
     gap: 20%;
     padding: 1%;
     width: 90%;
+
+    font-family: var(--fonte-primaria);
+    font-weight: 700;
     
 
     background-color: var(--cor-secundaria);
@@ -135,5 +140,9 @@ Responsavel
 @media (max-width: 650px) {
     .container_nota {
         font-size: 4vw;
+    }
+
+    .titulo-principal {
+        font-size: 3rem;
     }
 }
