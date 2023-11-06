@@ -19,8 +19,7 @@
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s; /* Adicionando transição suave para a mudança de cor */
     border-radius: 20px;
-    margin-top: 20px;
-    margin: 0 auto;
+    margin: 0 45%;
     text-align: center;
     display: inline-block;
     
