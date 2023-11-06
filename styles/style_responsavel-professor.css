@@ -1,14 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow:400,700&display=swap');
+
+
+
 :root {
-    --cor-primaria: #486AAB;
-    --cor-secundaria: #E3DBA3;
+    --cor-primaria: #6447AA;
+    --cor-secundaria: #FAEA48;
     --cor-terciaria: #D9D9D9;
     --cor-quaternaria : #E3CCA3;
-    --cor-quintenaria: #6548AB;
+    --fonte-primaria: 'Archivo Narrow';
 }
 
 
 body {
     background-color: var(--cor-primaria);
+    font-family: var(--fonte-primaria);
 }
 
 .card-branco {
