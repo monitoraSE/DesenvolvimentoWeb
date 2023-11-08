@@ -167,6 +167,7 @@ Turmas (tela professor)
 .botoes {
     display: flex;
     justify-content: space-between;
+    width: 45%;
 }
 
 /* 
@@ -195,8 +196,13 @@ Turmas (tela professor)
 
 .botao_amarelo {
 
-    justify-content: space-between;
-    width: 10%;
+    width: 30%;
+    height: 4rem;
+    border-radius: 0.5rem;
 
+}
+
+.link_botao {
+    text-decoration: none;
 }
 
