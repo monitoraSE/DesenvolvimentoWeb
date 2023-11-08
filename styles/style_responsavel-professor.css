@@ -65,7 +65,7 @@ body {
 }
 
 .container_texto {
-    width: 20%;
+    width: 30%;
     word-wrap: break-word;
 }
 
@@ -144,5 +144,12 @@ Responsavel
 
     .titulo-principal {
         font-size: 3rem;
+    }
+
+    .card-amarelo {
+        flex-direction: column;
+    }
+    .container_texto {
+        width: 90%;
     }
 }
