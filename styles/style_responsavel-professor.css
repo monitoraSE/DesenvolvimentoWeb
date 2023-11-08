@@ -43,7 +43,7 @@ body {
 
     display: flex;
     align-items: center;
-    gap: 20%;
+    justify-content: space-around;
     padding: 1%;
     width: 90%;
 
