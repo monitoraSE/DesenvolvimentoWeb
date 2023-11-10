@@ -230,3 +230,58 @@ Turmas (tela professor)
     color: #000;
 }
 
+/* 
+---------------------------------------------------------------------------------------------
+tela registro de nota professor
+*/
+
+.card_amarelo_maior {
+
+    background-color: var(--cor-secundaria);
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 80%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 2% 3% 3% 3%;
+
+
+}
+
+.sub_titulos {
+
+}
+
+.formulario {
+
+}
+
+.alunos_atividades {
+
+}
+
+.form_atividades {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.todos_alunos {
+    margin-top: 10%;
+
+    display: flex;
+    justify-content: space-around;
+    gap: 2%;
+}
+
+.container_aluno {
+
+    background-color: var(--cor-quaternaria);
+    padding: 1%;
+    width: 30%;
+}
