@@ -18,7 +18,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="professor.html">Home</a>
+                        <a class="nav-link active" aria-current="page" href="professor.html">Turmas</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Link</a>
@@ -35,46 +35,72 @@
             <div class="sub_titulos">
     
                 <h2>Turma **********************</h2>
-                <h3>Escola **********************</h3>
+                <h3 class="texto_terciario">Escola **********************</h3>
     
             </div>
     
-            <div class="formulario">
-                <form class="alunos_atividades">
-    
-                    <div class="form_atividades">
-                        <label for="atividade" class="texto_a">Atividade avaliativa:</label>
-                        <input type="text" name="atividade" id="atividade" class="input_a">  
-                    </div>
+            
+            <form class="formulario">
 
-                    <div class="todos_alunos">
+                <div class="form_atividades">
+                    <label for="atividade" class="texto_a">Atividade avaliativa:</label>
+                    <input type="text" name="atividade" id="atividade" class="input_a">  
+                </div>
 
-                        <div class="container_aluno">
-                            <p class="aluno">Aluno: **************** ********* *************</p>
-                            <label for="nota">nota:</label>
+                <div class="todos_alunos">
+
+                    <div class="container_aluno">
+                        <p class="aluno">Aluno: **************** ********* *************</p>
+
+                        <div class="nota_input">
+                            <label for="nota" class="nota_t">nota:</label>
                             <input type="text" name="nota" id="nota" class="input_n">
-
-                        </div>
-
-                        <div class="container_aluno">
-                            <p class="aluno">Aluno: **************** ********** ************</p>
-                            <label for="nota">nota:</label>
-                            <input type="text" name="nota" id="nota" class="input_n">
-
-                        </div>
-
-                        <div class="container_aluno">
-                            <p class="aluno">Aluno: *************** ************ ***********</p>
-                            <label for="nota">nota:</label>
-                            <input type="text" name="nota" id="nota" class="input_n">
-
                         </div>
 
                     </div>
-    
-    
-                </form>
-            </div>
+
+                    <div class="container_aluno">
+                        <p class="aluno">Aluno: **************** ********* *************</p>
+
+                        <div class="nota_input">
+                            <label for="nota" class="nota_t">nota:</label>
+                            <input type="text" name="nota" id="nota" class="input_n">
+                        </div>
+
+                    </div>
+
+                    <div class="container_aluno">
+                        <p class="aluno">Aluno: **************** ********* *************</p>
+
+                        <div class="nota_input">
+                            <label for="nota" class="nota_t">nota:</label>
+                            <input type="text" name="nota" id="nota" class="input_n">
+                        </div>
+
+                    </div>
+
+                    <div class="container_aluno">
+                        <p class="aluno">Aluno: **************** ********* *************</p>
+
+                        <div class="nota_input">
+                            <label for="nota" class="nota_t">nota:</label>
+                            <input type="text" name="nota" id="nota" class="input_n">
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+                <div class="botao_mensagem_obs">
+                    <p class="texto_obs">obs: notas que não forem preenchidas permaneceram sem alteração</p>
+                    <input type="submit" value="Enviar" class="botao_enviar">
+                </div>
+
+
+            </form>
+            
     
        
         </div>

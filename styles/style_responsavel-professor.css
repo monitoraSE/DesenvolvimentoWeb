@@ -6,7 +6,9 @@
     --cor-primaria: #6447AA;
     --cor-secundaria: #FAEA48;
     --cor-terciaria: #fff;
-    --cor-quaternaria : #E3CCA3;
+    --cor-quaternaria: #E3CCA3;
+    --cor-quinternaria: #322653;
+
     --fonte-primaria: 'Archivo Narrow';
 }
 
@@ -36,6 +38,7 @@ body {
 
     font-weight: bold;
     font-size: 4rem;
+    text-align: center;
 }
 
 
@@ -193,29 +196,6 @@ Turmas (tela professor)
     width: 45%;
 }
 
-/* 
-
-.card-amarelo {
-
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 1%;
-    width: 90%;
-
-    font-family: var(--fonte-primaria);
-    font-weight: 700;
-    
-
-    background-color: var(--cor-secundaria);
-    border: 1px solid #000;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    border-radius: 1rem;
-
-    text-decoration: none;
-    color: #000;
-}
-*/
 
 .botao_amarelo {
 
@@ -239,8 +219,8 @@ tela registro de nota professor
 
     background-color: var(--cor-secundaria);
     border-radius: 1rem;
-    padding: 1rem;
-    width: 80%;
+    padding: 0.3rem;
+    width: 90%;
 
     display: flex;
     flex-direction: column;
@@ -252,36 +232,119 @@ tela registro de nota professor
 }
 
 .sub_titulos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 
+}
+
+.texto_terciario {
+    font-size: 1.3rem;
 }
 
 .formulario {
-
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
-.alunos_atividades {
-
-}
 
 .form_atividades {
     display: flex;
+    gap: 0.5rem;
     justify-content: center;
+    align-items: center;
 
+}
+
+.input_a {
+    width: 30%;
 }
 
 
 
 .todos_alunos {
-    margin-top: 10%;
+    margin-top: 5%;
 
     display: flex;
-    justify-content: space-around;
-    gap: 2%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
 }
 
 .container_aluno {
 
     background-color: var(--cor-quaternaria);
     padding: 1%;
-    width: 30%;
+    width: 400px;
+    border-radius: 1rem;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.aluno {
+    font-size: 1.5rem;
+}
+
+
+.input_n {
+    width: 3rem;
+    height: 1.5rem;
+    border-radius: 0.1875rem;
+    border: 1px solid #C4C4C4;
+}
+
+.nota_t {
+    font-size: 1.25rem;
+}
+
+
+
+.botao_mensagem_obs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.texto_obs {
+    color: rgba(0, 0, 0, 0.50);
+}
+
+.botao_enviar {
+    background-color: var(--cor-primaria);
+    border: var(--cor-primaria);
+    color: var(--cor-terciaria);
+    font-size: 1.3rem;
+
+    border-radius: 0.7rem;
+    width: 10rem;
+}
+
+.botao_enviar:hover {
+    background-color: #322653;
+    border: #000;
+}
+
+
+
+@media (max-width: 650px) {
+    .form_atividades {
+        flex-direction: column;
+    }
+
+    .input_a {
+        height: 40%;
+        width: 90%;
+        justify-content: center;
+    }
+    
+    .todos_alunos {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .container_aluno {
+        width: 100%;
+    }
+
 }
