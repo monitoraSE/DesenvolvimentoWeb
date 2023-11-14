@@ -402,3 +402,11 @@ input[type="radio"]:checked::before {
   
 
 
+/* 
+---------------------------------------------------------------------------------------------
+tela registro de PRESENÇA professor
+*/
+
+.input_data {
+ width: 6rem;
+}
