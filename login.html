@@ -46,27 +46,27 @@
 
           <h1 class="login-titulo">Login</h1>
 
-          <form class="container-imput">
+          <form class="container-imput" method="POST" action="./php/loginUsuario.php">
 
-              <div>
-                  <label for="cpf-cnpj" class="email-senha">CPF/CNPJ</label>
-                  <input type="text" id="email" name="cpf-cnpj" class="input" placeholder="CPF ou CNPJ">
-              </div>
+            <div>
+                <label for="cpf" class="email-senha">CPF</label>
+                <input type="text" id="email" name="cpf" class="input" placeholder="CPF apenas números">
+            </div>
 
-              <div>
-                  <label for="senha" class="email-senha">Senha</label>
-                  <input type="password" id="senha" name="senha" class="input" placeholder="****************">
-              </div>
+            <div>
+                <label for="senha" class="email-senha">Senha</label>
+                <input type="password" id="senha" name="senha" class="input" placeholder="****************">
+            </div>
+                
+            <div class="botao_login_enviar">
+                <input type="submit" value="Entrar" class="input-entrar">
+            </div>
 
-          </form>
-
-          <div class="container-entrar">
-              <input type="submit" value="Entrar" class="input-entrar">
-          </div>
+          </form>            
 
       </div>
-      
-    </main>
+
+  </main>
 
     
 
